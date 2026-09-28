@@ -18,7 +18,7 @@ pipeline {
     stages {
         stage('1. Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/kalyansagar5/PrimeVideoClone_Project.git'
+                git branch: 'main', url: 'https://github.com/SrividyaTikka/PrimeVideoClone_Project.git'
             }
         }
         
